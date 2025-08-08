@@ -13,8 +13,6 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: getApplicationTheme(),
       initialRoute: AppRoute.homeRoute,
-      // theme: ThemeData(
-      //     primarySwatch: Colors.orange, scaffoldBackgroundColor: Colors.grey),
       routes: AppRoute.getAppRoutes(),
     );
   }
